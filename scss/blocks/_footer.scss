@@ -1,0 +1,26 @@
+.footer {
+    height: 448px;
+    background: #222222;;
+}
+
+.footer__info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer__copy {
+    color: $text-color;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    padding: 63px 0 0 0;
+}
+
+.footer__logo {
+    padding: 54px 0 0 0;
+}
+
+iframe {
+    border: none;
+    width: 100%;
+}

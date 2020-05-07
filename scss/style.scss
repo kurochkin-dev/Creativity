@@ -1,0 +1,45 @@
+@import "vars";
+@import "libs";
+@import "fonts";
+
+@import "blocks/menu";
+@import "blocks/scroll";
+@import "blocks/header";
+@import "blocks/banner";
+@import "blocks/feature";
+@import "blocks/news";
+@import "blocks/blog";
+@import "blocks/aside";
+@import "blocks/benefits";
+@import "blocks/team";
+@import "blocks/form";
+@import "blocks/footer";
+
+@import "media";
+
+
+
+
+
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    position: relative;
+    margin: 0 auto;
+    width: 1170px;
+}

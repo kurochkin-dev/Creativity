@@ -1,0 +1,27 @@
+.aside {
+    height: 285px;
+    background-color: #11749E;
+}
+
+.aside__wrap {
+    display: flex;
+    justify-content: space-around;
+}
+
+.aside__item {
+    display: flex;
+    padding: 100px 0 0 0;
+}
+
+.aside__img {
+    width: 69px;
+    height: 69px;
+}
+
+.aside__text {
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+    padding: 0 0 0 34px;
+    color: $text-color;
+}

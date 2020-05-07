@@ -1,0 +1,64 @@
+.form {
+    height: 850px;
+    background: url(../img/projectform_bg.jpg) center center/cover no-repeat;
+}
+
+.form__slogan {
+    text-align: center;
+    font-size: 37px;
+    line-height: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 205px 0 150px 0;
+    color: $text-color;
+}
+
+.form__area {
+    background: none;
+    width: 367px;
+    height: 48px;
+    border: 1.0px solid #ffffff;
+    font-size: 15px;
+    line-height: 36px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: $text-color;
+    margin: 0 20px 39px 0;
+    padding: 0 0 0 22px;
+    &::placeholder {
+        color: $text-color;
+    }
+}
+
+.form__text {
+    background: none;
+    width: 1150px;
+    height: 151px;
+    border: 1.0px solid #ffffff;
+    font-size: 15px;
+    line-height: 36px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: $text-color;
+    padding: 0 0 100px 22px;
+    &::placeholder {
+        color: $text-color;
+    }
+}
+
+.form__button {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    border: none;
+    width: 227px;
+    height: 64px;
+    background-color: #11749e;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #ffffff;
+    cursor: pointer;
+    margin: 46px 0 0 0;
+}

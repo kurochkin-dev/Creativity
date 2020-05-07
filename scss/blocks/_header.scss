@@ -1,0 +1,16 @@
+.header {
+    background: url(../img/main_bg.jpg) center center/cover no-repeat;
+    height: 880px;
+}
+
+.header__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+

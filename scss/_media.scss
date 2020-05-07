@@ -1,0 +1,408 @@
+@media (max-width: 1200px) {
+
+    .header__logo {
+        padding: 0 0 0 20px;
+    }
+
+    .menu__element {
+        padding: 55px 45px 40px 0;
+        &:first-child {
+            padding: 55px 45px 40px 100px;
+        }
+    }
+
+    .social__element {
+        padding: 53px 31px 42px 0;
+        &:last-child {
+            padding: 53px 31px 42px 0;
+        }
+    }
+
+    .news__data1 {
+        padding: 82px 0 18px 110px;
+    }
+
+    .news__title1 {
+        padding: 0 0 43px 110px;
+    }
+
+    .news__preview1 {
+        padding: 0 0 114px 110px;
+    }
+
+    .benefits__block {
+        padding: 0 0 0 40px;
+    }
+}
+
+@media (max-width: 991px) {
+    .container {
+        max-width: 100%;
+    }
+
+    .header__logo {
+        padding: 0 0 0 30px;
+    }
+
+    .menu__element {
+        padding: 10px 10px 10px 10px;
+        &:first-child {
+            padding: 10px 10px 10px 10px;
+        }
+    }
+
+    .main__line {
+        margin: 20px 0 0 0;
+    }
+
+    .menu__link {
+        font-size: 20px;
+
+        &::after {
+            height: 5px;
+            top: 42px;
+        }
+    }
+
+    .header__menu {
+        position: absolute;
+        left: 220px;
+    }
+
+
+    .social__icons {
+        display: none;
+    }
+
+    .banner__title {
+        font-size: 124px;
+    }
+
+    .banner__subtitle {
+        font-size: 20px;
+    }
+
+    .feature {
+        height: 600px;
+        br {
+            display: none;
+        }
+    }
+
+    .feature__title {
+        padding: 40px 50px;
+        font-size: 30px;
+    }
+
+    .feature__wrap {
+        width: 100%
+    }
+
+
+    .feature__item {
+        padding: 100px 20px 40px 20px;
+    }
+
+    .news {
+        br {
+            display: none;
+        }
+    }
+
+    .news__data1 {
+        padding: 82px 0 18px 80px;
+    }
+
+    .news__title1 {
+        padding: 0 0 43px 80px;
+    }
+
+    .news__preview1 {
+        padding: 0 0 114px 80px;
+    }
+
+    .blog__wrap {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .blog__item {
+        padding: 15px 0 0 0;
+    }
+
+    .blog__title {
+        padding: 40px 50px;
+    }
+
+    .blog__subtitle {
+        padding: 0 0 0 0;
+    }
+
+    .aside {
+        height: 250px;
+    }
+
+    .aside__wrap {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .aside__item {
+        padding: 20px 0 0 0;
+    }
+
+    .benefits__img {
+        padding: 70px 200px 0 0 ;
+    }
+
+    .team {
+        display: none;
+    }
+
+    .form__area {
+        width: 300px
+    }
+
+    .form__text {
+        width: 950px
+    }
+
+
+    .benefits__img {
+        padding: 70px 0 0 0 ;
+    }
+}
+
+@media (max-width: 767px) {
+    
+    .container {
+        width: 100%
+    }
+
+    .scroll__wrap {
+        display: none;
+    }
+
+    .menu {
+		position: fixed;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		top: 0;
+		left: -100%;
+		width: 50%;
+		height: 100vh;
+		padding: 20px 15px;
+		background-color: rgba($color: #313131, $alpha: 0.7);
+        transition: 0.6s all;
+       
+        &_active {
+            left: 0;
+        }
+       
+    }		
+    
+	.hamburger {
+		display: block;
+		position: absolute;
+		right: 10px;
+		top: 50%;
+		transform: translateY(-50%);
+		width: 26px;
+		height: 12px;
+		span {
+			display: block;
+			height: 2px;
+			width: 100%;
+			background-color: #fff;
+			margin-bottom: 2px;
+            transition: 0.5s all;
+        }
+		&_active {
+
+			span {
+				margin-bottom: -2px;
+				&:nth-child(1) {
+                    transform: translateY(3px) rotate(-45deg);
+                }
+                &:nth-child(2) {
+                    display: none;
+                }
+				&:nth-child(3) {
+                transform: translateY(3px) rotate(45deg);
+                }
+            }
+        }    
+    }
+    .menu__link {
+        font-size: 15px;
+        &::after {
+            height: 5px;
+            top: 20px;
+        }
+    }
+
+    .header__logo {
+        padding: 5px 0 5px 5px;
+    }
+
+    .banner__title {
+        padding: 50px 0 0 0;
+    }
+
+    .header {
+        height: 400px;
+    }
+
+    .benefits {
+        height: 600px;
+    }
+
+    .benefits__title {
+        padding: 100px 0 20px 0;
+    }
+
+    .benefits__img {
+        height: 400px;
+        width: 200px;
+    }
+
+    .form {
+        height: 550px;
+    }
+
+    .form__slogan {
+        font-size: 25px;
+        padding: 30px 0 30px 0;
+    }
+
+    .form__text {
+        width: 720px;
+        height: 120px;
+    }
+}
+
+@media (max-width: 575px) {
+    .container {
+        width: 100%;
+    }
+
+    .scroll__wrap {
+        display: none;
+    }
+
+    .banner__title {
+        font-weight: 400;
+        font-size: 100px;
+        padding: 20px 20px 15px 20px;
+    }
+
+    .banner__subtitle {
+        line-height: unset;
+        font-size: 15px;
+        padding: 0 25px;
+    }
+
+    .feature__item {
+        padding: unset;
+    }
+
+    .news__data1 {
+        padding: 15px;
+    }
+
+    .news__title1 {
+        padding: 15px;
+    }
+
+    .news__preview1 {
+        padding: 15px;
+    }
+
+    .news__data2 {
+        padding: 15px;
+    }
+
+    .news__title2 {
+        padding: 15px;
+    }
+
+    .news__preview2 {
+        padding: 15px;
+    }
+
+    .benefits__img {
+        display: none;
+    }
+
+    .form__text {
+        width: 550px;
+        height: 100px;
+    } 
+
+    .form__button {
+        margin: 5px 0 0 0;
+    }
+}
+
+@media (max-width: 375px) {
+
+    .container {
+        width: 100%;
+    }
+
+    .scroll__wrap {
+        display: none;
+    }
+
+    .banner__title {
+        font-size: 50px;
+        padding: 15px 60px;
+    }
+    
+    .banner__subtitle {
+        display: none;
+    }
+
+    .feature {
+        height: 1350px;
+    }
+
+    .feature__item {
+        padding: 0 20px 0 80px;
+    }
+
+    .feature__wrap {
+        flex-direction: column;
+    }
+
+    .blog__slogan {
+        padding: unset;
+    }
+
+    .aside {
+        height: 430px;
+    }
+
+    .btn__design {
+        width: 250px;
+    }
+
+    .btn__code {
+        width: 280px;
+    }
+
+    .btn__layout {
+        width: 320px;
+    }
+
+    .form__area {
+        margin:0 20px 39px 15px;
+    }
+
+    .form__text {
+        margin: 0 0 0 15px;
+        width: 320px;
+        padding: 5px;
+    }
+}
